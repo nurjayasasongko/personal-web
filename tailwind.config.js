@@ -11,7 +11,8 @@ module.exports = {
         'sunglow': '#FDCA40'
       },
       fontFamily: {
-        'poppins': 'Nunito'
+        'poppins': 'Poppins',
+        'ubuntu': 'Ubuntu'
       }
     },
   },

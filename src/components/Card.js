@@ -1,6 +1,6 @@
 export default function Card(props) {
   return (
-    <div id={props.id} class="text-center rounded-sm bg-blue-crayola p-3 md:p-4 mx-4 md:mx-8 mb-8  w-40 md:w-64  md:h-80">
+    <div id={props.id} class="text-center rounded-lg bg-blue-crayola p-3 md:p-4 mx-4 md:mx-8 mb-8  w-40 md:w-64  md:h-80">
       <div class="card-img mt-2 md:mt-6 flex justify-center ">
         <img class="w-10 md:w-auto" src={props.img} alt="img" />
       </div>
