@@ -1,4 +1,4 @@
-import { TransparentBtn, ColorBtn } from "../components/Button";
+import ColorBtn from "../components/Button";
 import me from "../assets/me.png";
 import Card from "../components/Card";
 
