@@ -1,7 +1,7 @@
-function ColorButton(props) {
+function ColorBtn(props) {
   return (
     <button
-      class={` p-2 rounded-md text-background bg-blue-jeans hover:bg-white text-background ${props.className}`}
+      class={` p-2 rounded-md text-background bg-blue-jeans border-2 border-blue-jeans hover:bg-white text-background ${props.className}`}
       type={props.type}
       onClick={props.onClick}
     >
@@ -22,4 +22,4 @@ function TransparentBtn(props) {
   );
 }
 
-export { ColorButton, TransparentBtn };
+export { ColorBtn, TransparentBtn };
