@@ -3,8 +3,8 @@ import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <div class='bg-background w-full h-screen font-poppins'>
-      <LandingPage />
+    <div class='bg-background w-full'>
+      <LandingPage class='h-screen mb-10'/>
       <AboutMe />
     </div>
   );

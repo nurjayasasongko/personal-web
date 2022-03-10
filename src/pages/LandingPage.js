@@ -1,5 +1,5 @@
 import { TransparentBtn, ColorBtn } from "../components/Button";
-import me from "../assets/me.png";
+import back from "../assets/back-me.png";
 import github from '../assets/svg/github.svg'
 import linkedin from '../assets/svg/linkedin.svg'
 
@@ -27,7 +27,7 @@ export default function LandingPage() {
           </a>
         </div>
         <div class="item w-[670px] h-auto">
-          <img src={me} alt="me"/>
+          <img src={back} alt="me"/>
         </div>
         <div class="item w-1/4 h-auto">
           <p class='text-blue-jeans translate-y-32 rotate-90'>Scroll Down</p>
